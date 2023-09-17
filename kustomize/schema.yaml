@@ -11,5 +11,6 @@ spec:
         name varchar(255) not null,
         email varchar(255) unique not null,
         short_bio varchar(255) not null,
+        new_col varchar(255) not null,
         primary key (id)
       );
