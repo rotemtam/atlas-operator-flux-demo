@@ -1,7 +1,7 @@
 apiVersion: db.atlasgo.io/v1alpha1
 kind: AtlasSchema
 metadata:
-  name: myapp
+  name: app-schema
 spec:
   url: mysql://root:pass@mysql:3306/example
   schema:
